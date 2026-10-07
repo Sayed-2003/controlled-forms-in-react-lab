@@ -43,14 +43,14 @@ function Bookshelf() {
 
             <div className="bookCardsDiv">
 
-                {book.map((oneBook)=>{
-                    return(
+                {book.map((oneBook)=>
+                
                         <div className='bookCard' key={oneBook.title}>
                         <h3>title: {oneBook.title}</h3>
                         <h3>Author: {oneBook.author} </h3>
                         </div>
-                    )
-                })}
+                    
+                )}
 
             </div>
 
@@ -60,3 +60,6 @@ function Bookshelf() {
 }
 
 export default Bookshelf
+
+
+const something = ()=>{return 5}
