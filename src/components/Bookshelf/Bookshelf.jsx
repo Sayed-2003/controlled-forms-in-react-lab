@@ -62,4 +62,3 @@ function Bookshelf() {
 export default Bookshelf
 
 
-const something = ()=>{return 5}
